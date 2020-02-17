@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900&subset=latin-ext');
+
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Bebas Neue'), url('/static/BebasNeue.woff') format('woff');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .card-header {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+form {
+  margin-bottom: 2em;
+}
+
+.callout .subheader {
+  font-size: 24px;
+}
+
+.callout p {
+  font-size: 14px;
+}
+
+div.perex {
+  margin-bottom: 20px;
+  font-size: 120%;
+}
+
+h1 small {
+  display: block;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+/* blog */
+img.blog {float: right;
+margin-bottom: 10px;
+margin-left: 10px;}
+
+.splash {
+  width: 100%;
+  max-height: 300px;
+}
+
+.portrets img {
+  margin: 0 15px 15px 0;
+  width: 120px;
+  height: 160px;
+}
+
+.portrets hr {
+  clear: both;
+}
+
+article {
+  margin-bottom: 2em;
+}
+article h3 a {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.blog h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+
+/*aarticle*/
+
+html body .category {
+	max-width: 100% !important;
+	display: inline-block;
+	word-wrap: break-word;
+}
+
+.splashdiv {
+	height: auto;
+	overflow: hidden;
+	max-width: 100%;
+	border-bottom: 3px solid #2785ce;
+}
+
+
+
+
+
+
+
+
+
+
+
+.c-welcome-header__quote h3 {
+
+
+    color: #2a2a2a;
+
+    font-size: 23px;
+
+    font-weight: bold;
+
+}
+
+.c-welcome-header h2 {
+
+
+
+    color: #27231f;
+
+    font-weight: bold;
+
+    font-size: 50px;
+
+}
+
+.navbar-brand {
+
+    opacity: 0;
+
+    display: none;
+
+}
+
+
+/*test jave*/
