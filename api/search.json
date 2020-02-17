@@ -1,16 +1,254 @@
----
----
 [
-  {% for post in site.posts %}
-    { "label": "{{ post.title }}", "value": "{{ post.url | relative_url }}"},
-  {% endfor %}
-  {% for person in site.people %}
-    { "label": "{{ person.name }}", "value": "{{ person.url | relative_url }}"},
-  {% endfor %}
-  {% for page in site.program %}
-    { "label": "{{ page.title }}", "value": "{{ page.url | relative_url }}"},
-  {% endfor %}
-  {% for page in site.pages %}
-    { "label": "{{ page.title }}", "value": "{{ page.url | relative_url }}"}{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  
+    { "label": "CO V LEDNU PROJEDNÁVALY KOMISE MĚSTA", "value": "/tiskove-zpravy/co-v-lednu-projednavaly-komise-mesta/"},
+  
+    { "label": "Jihočeští Piráti představují lídra do krajských voleb", "value": "/tiskove-zpravy/jihocesti-pirati-predstavuji-lidra-do-krajskych-voleb/"},
+  
+    { "label": "Máme jména ulic, ve kterých má být omezena otevírací doba podniků!", "value": "/tiskove-zpravy/mame-jmena-ulic-ve-kterych-ma-byt-omezena-oteviraci-doba-podniku/"},
+  
+    { "label": "Město se všemožně snaží utajit informace z rady", "value": "/tiskove-zpravy/mesto-se-vsemozne-snazi-utajit-informace-z-rady/"},
+  
+    { "label": "Co se projednávalo na listopadovém zastupitelstvu?", "value": "/tiskove-zpravy/co-se-projednavalo-na-listopadovem-zastupitelstvu/"},
+  
+    { "label": "Budějcké zastupitelstvo očima Pirátů", "value": "/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/"},
+  
+    { "label": "Co v září projednávaly komise města", "value": "/tiskove-zpravy/co-v-zari-projednavaly-komise-mesta/"},
+  
+    { "label": "Podporujeme výstavbu jihočeské cyklostezky", "value": "/tiskove-zpravy/podporujeme-vystavbu-jihoceske-cyklostezky/"},
+  
+    { "label": "V neděli 15. září proběhlo v Čepici zasedání místního fóra Pirátů", "value": "/tiskove-zpravy/v-nedeli-15-zari-se-probehlo-v-cepici-zasedani-mistniho-fora-piratu/"},
+  
+    { "label": "Personální změny Pirátů", "value": "/tiskove-zpravy/personalni-zmeny-piratu/"},
+  
+    { "label": "(Dobré) novinky  z Rady města 2.9.2019", "value": "/tiskove-zpravy/dobre-novinky-z-rady-mesta-292019/"},
+  
+    { "label": "Město bude doplácet za elektřinu kvůli chybně nainstalovaným elektroměrům", "value": "/tiskove-zpravy/mesto-bude-doplacet-za-elektrinu-kvuli-chybne-nainstalovanym-elektromerum/"},
+  
+    { "label": "Další nákupní centrum ", "value": "/tiskove-zpravy/dalsi-nakupni-centrum/"},
+  
+    { "label": "Rozhovor s Lukášem Marešem o hale", "value": "/tiskove-zpravy/rozhovor-hala/"},
+  
+    { "label": "Stanovisko budějovických Pirátů k letišti.", "value": "/tiskove-zpravy/stanovisko-budejovickych-piratu-k-letisti/"},
+  
+    { "label": "Město se chystá podpořit zastaralý projekt protidrogové prevence  “Revoluční vlak”", "value": "/tiskove-zpravy/mesto-se-chysta-podporit-zastaraly-projekt-protidrogove-prevence-revolucni-vlak/"},
+  
+    { "label": "Piráti vyžadují citlivější přístup při navyšování nájmů v městských bytech. Podávají podnět na Ministerstvo vnitra. ", "value": "/tiskove-zpravy/pirati-vyzaduji-citlivejsi-pristup-pri-navysovani-najmu-v-mestskych-bytech-podavaji-podnet-na-ministerstvo-vnitra/"},
+  
+    { "label": "Předražené odpady podruhé. Držíme v ruce důkazy.", "value": "/tiskove-zpravy/predrazene-odpady-podruhe-drzime-v-ruce-dukazy/"},
+  
+    { "label": "MŮŽE PARK NA DUKELSKÉ UKÁZAT, JAK VTÁHNOUT OBČANY DO ROZHODOVÁNÍ…?", "value": "/tiskove-zpravy/muze-park-na-dukelske-ukazat-jak-vtahnout-obcany-do-rozhodovani/"},
+  
+    { "label": "Rada města konaná dne 20. 5. 2019 pohledem Pirátů.", "value": "/tiskove-zpravy/rada-mesta-konana-dne-20-5-2019-pohledem-piratu/"},
+  
+    { "label": "Cesta pirátského autobusu po jihočeských městech", "value": "/tiskove-zpravy/cesta-piratskeho-autobusu-po-jihoceskych-mestech/"},
+  
+    { "label": "Ivan Bartoš podpořil na jihu pirátskou kampaň k Eurovolbám", "value": "/tiskove-zpravy/ivan-bartos-podporil-na-jihu-piratskou-kampan-k-eurovolbam/"},
+  
+    { "label": "Eurovolby 24.-25.5. 2019 - akce v JčK a jak se zapojit", "value": "/tiskove-zpravy/eurovolby-24-255-2019-akce-v-jck-a-jak-se-zapojit/"},
+  
+    { "label": "Piráti dotlačili koalici k odvolání náměstka zodpovědného za výstavbu nové haly v Českých Budějovicích", "value": "/tiskove-zpravy/pirati-dotlacili-koalici-k-odvolani-namestka-zodpovedneho-za-vystavbu-nove-haly-v-ceskych-budejovicich/"},
+  
+    { "label": "Přijďte v pondělí 25. března podpořit důležité hlasování o vyhlášení referenda na radnici", "value": "/tiskove-zpravy/prijdte-v-pondeli-25-brezna-podporit-dulezite-hlasovani-o-vyhlaseni-referendu-na-radnici/"},
+  
+    { "label": "Zachraňme internet před články 11 a 13 v Českých Budějovicích", "value": "/tiskove-zpravy/zachranme-internet-pred-clanky-11-a-13-v-ceskych-budejovicich/"},
+  
+    { "label": "Piráti otevírají jednání se starostkou Litvínovic o přemostění Vltavy", "value": "/tiskove-zpravy/pirati-oteviraji-jednani-se-starostkou-litvinovic-o-premosteni-vltavy/"},
+  
+    { "label": " Zastupitelstvo 11. 2. 2019 pohledem Pirátů", "value": "/tiskove-zpravy/zastupitelstvo-11-2-2019-pohledem-piratu/"},
+  
+    { "label": "VYVOLEJME REFERENDUM O SPORTOVNÍ HALE", "value": "/tiskove-zpravy/vyvolejme-referendum-o-sportovni-hale/"},
+  
+    { "label": "Proslov pirátského zastupitele MUDr. Lukáše Mareše k tématu Sportovní hala na zastupitelstvu města 10. prosince 2018.", "value": "/tiskove-zpravy/proslov-piratskeho-zastupitele-mudr-lukase-marese-k-tematu-sportovni-hala-na-zastupitelstvu-mesta-10-prosince-2018/"},
+  
+    { "label": "DO VÝBĚROVÉHO ŘÍZENÍ NA ČLENY DOZORČÍCH RAD SE PŘIHLÁSILO 16 ZÁJEMCŮ", "value": "/tiskove-zpravy/do-vyberoveho-rizeni-na-cleny-dozorcich-rad-se-prihlasilo-16-zajemcu/"},
+  
+    { "label": "PIRÁTŠTÍ ZASTUPITELÉ MAJÍ VÝHRADY K ROZPOČTU NA PŘÍŠTÍ ROK", "value": "/tiskove-zpravy/piratsti-zastupitele-maji-vyhrady-k-rozpoctu-na-pristi-rok/"},
+  
+    { "label": "PIRÁTI JSOU OTEVŘENÍ I NA RADNICI", "value": "/tiskove-zpravy/pirati-jsou-otevreni-i-na-radnici/"},
+  
+    { "label": "Zastupitelský klub budějovických Pirátů vyhlašuje výběrová řízení na členy dozorčích rad.", "value": "/tiskove-zpravy/zastupitelsky-klub-budejovickych-piratu-vyhlasuje-vyberova-rizeni-na-cleny-dozorcich-rad/"},
+  
+    { "label": "Prohlášení Zastupitelského klubu Pirátů ke vzniku rady města České Budějovice na období 2018 – 2022", "value": "/tiskove-zpravy/prohlaseni-zastupitelskeho-klubu-piratu-ke-vzniku-rady-mesta-ceske-budejovice-na-obdobi-2018-2022/"},
+  
+    { "label": "Sloupec je víc než kandidát. Jak chcete hlasovat v Komunálních volbách?", "value": "/tiskove-zpravy/sloupec-je-vic-nez-kandidat-jak-chcete-hlasovat-v-komunalnich-volbach/"},
+  
+    { "label": "7 důvodů proč volit Piráty, i když nám nemůžete přijít na jméno", "value": "/tiskove-zpravy/7-duvodu-proc-volit-piraty-i-kdyz-nam-nemuzete-prijit-na-jmeno/"},
+  
+    { "label": "Životní prostředí", "value": "/tiskove-zpravy/zivotni-prostredi/"},
+  
+    { "label": "Veřejný prostor a územní plánování", "value": "/tiskove-zpravy/verejny-prostor-a-uzemni-planovani/"},
+  
+    { "label": "Správa města pružněji a blíže lidem", "value": "/tiskove-zpravy/sprava-mesta-pruzneji-a-blize-lidem/"},
+  
+    { "label": "BUDĚJČÁCI, PODPOŘTE NÁS, POSKYTNĚTE PLOT!", "value": "/tiskove-zpravy/budejcaci-podporte-nas-poskytnete-plot/"},
+  
+    { "label": "Doprava s rozmyslem", "value": "/tiskove-zpravy/doprava/"},
+  
+    { "label": "Budějovice bez korupce", "value": "/tiskove-zpravy/budejovice-bez-korupce/"},
+  
+    { "label": "Příkladem v transparenci", "value": "/tiskove-zpravy/prikladem-v-transparenci/"},
+  
+    { "label": "NOVÉ ČÍSLO PIRÁTSKÝCH LISTŮ JE TADY", "value": "/tiskove-zpravy/nove-cislo-piratskych-listu-je-tady/"},
+  
+    { "label": "Piráti: Nepovedené zavádění linky 24 je selhání radnice", "value": "/tiskove-zpravy/pirati-nepovedene-zavadeni-linky-24-je-selhani-radnice/"},
+  
+    { "label": "V Českých Budějovicích rozhoduješ i Ty", "value": "/tiskove-zpravy/v-ceskych-budejovicich-rozhodujes-i-ty/"},
+  
+    { "label": "V Budějovicích se Piráti připojili k happeningu k 50. výročí okupace vojsky Varšavské smlouvy v roce 1968", "value": "/tiskove-zpravy/v-budejovicich-se-pirati-pripojili-k-happeningu-k-50-vyroci-okupace-vojsky-varsavske-smlouvy-v-roce-1968/"},
+  
+    { "label": "Strany již mají vylosovaná čísla pro podzimní komunální volby", "value": "/tiskove-zpravy/strany-jiz-maji-vylosovana-cisla-pro-podzimni-komunalni-volby/"},
+  
+    { "label": "Písničkář Dan Vertígo zahrál v Pirátském centru ČePiCe", "value": "/tiskove-zpravy/pisnickar-dan-vertigo-zahral-v-piratskem-centru-cepice/"},
+  
+    { "label": "Kde již participativní rozpočet funguje?", "value": "/tiskove-zpravy/kde-jiz-participativni-rozpocet-funguje/"},
+  
+    { "label": " Bytová výstavba České Budějovice 2, Čtyři Dvory – střed versus zapsaný spolek Zlatá stoka – Čtyři Dvory", "value": "/tiskove-zpravy/bytova-vystavba-ceske-budejovice-2-ctyri-dvory-stred-versus-zapsany-spolek-zlata-stoka-ctyri-dvory/"},
+  
+    { "label": "Pozemky u Švábova Hrádku", "value": "/tiskove-zpravy/pozemky-u-svabova-hradku/"},
+  
+    { "label": "Ovládá Andrej Babiš stále Agrofert? Piráti mluví o střetu zájmů a chystají trestní oznámení", "value": "/tiskove-zpravy/ovlada-andrej-babis-stale-agrofert-pirati-mluvi-o-stretu-zajmu-a-chystaji-trestni-oznameni/"},
+  
+    { "label": "Zelení spolu s Piráty. Skvělá volba pro město!", "value": "/tiskove-zpravy/zeleni-spolu-s-piraty-skvela-volba-pro-mesto/"},
+  
+    { "label": "Co to je participativní rozpočet?", "value": "/tiskove-zpravy/co-to-je-participativni-rozpocet/"},
+  
+    { "label": "Praktiky feudálního pašalíku v Českých Budějovicích nechceme", "value": "/tiskove-zpravy/praktiky-feudalniho-pasaliku-v-ceskych-budejovicich-nechceme/"},
+  
+    { "label": "JDE TO I JINAK (o radě města)", "value": "/tiskove-zpravy/jde-to-i-jinak-o-rade-mesta/"},
+  
+    { "label": "Odhalujeme temné Budějovice - Peníze nebo nemlčet", "value": "/tiskove-zpravy/odhalujeme-temne-budejovice-penize-nebo-nemlcet/"},
+  
+    { "label": "Vyšel nový průzkum veřejného mínění! Co říká?", "value": "/tiskove-zpravy/vysel-novy-pruzkum-verejneho-mineni-co-rika/"},
+  
+    { "label": "Participativní rozpočet - Pirátská putovní univerzita", "value": "/tiskove-zpravy/participativni-rozpocet-piratska-putovni-univerzita/"},
+  
+    { "label": "Rozdáváme Pirátské listy v Budějovicích", "value": "/tiskove-zpravy/rozdavame-piratske-listy-v-budejovicich/"},
+  
+    { "label": "Odhalujeme temné Budějovice - Budějovický baron", "value": "/tiskove-zpravy/odhalujeme-temne-budejovice-realitni-baron/"},
+  
+    { "label": "Aktuální číslo PIRÁTSKÉHO ZPRAVODAJE", "value": "/tiskove-zpravy/aktualni-cislo-piratskeho-zpravodaje/"},
+  
+    { "label": "Participativní rozpočet - konec nadávání u piva?", "value": "/tiskove-zpravy/participativni-rozpocet-konec-nadavani-u-piva/"},
+  
+    { "label": "Piráti chtějí více zeleně", "value": "/tiskove-zpravy/pirati-chteji-vice-zelene/"},
+  
+    { "label": "Budějovice pro všechny generace", "value": "/tiskove-zpravy/budejovice-pro-vsechny-generace/"},
+  
+    { "label": "VOLEBNÍ PREFERENCE - KVĚTEN 2018 - PIRÁTI DRUZÍ", "value": "/tiskove-zpravy/volebni-preference-kveten-2018-pirati-druzi/"},
+  
+    { "label": "Společně otevřeme město", "value": "/tiskove-zpravy/mesto-bez-korupce/"},
+  
+    { "label": "Hledáme dobrovolníky na distribuci PIRÁTSKÝCH LISTŮ", "value": "/tiskove-zpravy/hledame-dobrovolniky-na-distribuci-piratskych-listu/"},
+  
+    { "label": "Město pro život", "value": "/tiskove-zpravy/mesto-do-rukou-obcanu/"},
+  
+    { "label": "Ivan Bartoš pokřtil pirátské centrum Čepice rumem Republika.", "value": "/tiskove-zpravy/cepice-otevreni/"},
+  
+  
+    { "label": "Zuzana Böhmová", "value": "/clenove/boehmova-zuzana/"},
+  
+    { "label": "Jiří Dohnal", "value": "/clenove/dohnal-jiri/"},
+  
+    { "label": "Martin Duška", "value": "/clenove/duska-martin/"},
+  
+    { "label": "Vratislav Filler", "value": "/clenove/filler-vratislav/"},
+  
+    { "label": "Richard Frank", "value": "/clenove/frank-richard/"},
+  
+    { "label": "Jiřina Franková", "value": "/clenove/frankova-jirina/"},
+  
+    { "label": "Josef Kocourek", "value": "/clenove/kocourek-josef/"},
+  
+    { "label": "Michal Kovařík", "value": "/clenove/kovarik-michal/"},
+  
+    { "label": "Ladislav Kos", "value": "/clenove/ladislav-kos/"},
+  
+    { "label": "Otmar Litera", "value": "/clenove/litera-otmar/"},
+  
+    { "label": "Martina Paříková", "value": "/clenove/martina-parikova/"},
+  
+    { "label": "Jan Mejsnar", "value": "/clenove/mejsnar-jan/"},
+  
+    { "label": "Michal Veselský", "value": "/clenove/michal-veselsky/"},
+  
+    { "label": "Filip Miler", "value": "/clenove/miler-filip/"},
+  
+    { "label": "Milan Minařík", "value": "/clenove/minarik-milan/"},
+  
+    { "label": "Martin Muzikant", "value": "/clenove/muzikant-martin/"},
+  
+    { "label": "Martin Petrtýl", "value": "/clenove/petrtyl-martin/"},
+  
+    { "label": "Lada Peksová", "value": "/clenove/pexova-lada/"},
+  
+    { "label": "Michaela Poláková", "value": "/clenove/polakova-michaela/"},
+  
+    { "label": "Jan Škarka", "value": "/clenove/skarka-jan/"},
+  
+    { "label": "Jan Suchánek", "value": "/clenove/suchanek-jan/"},
+  
+    { "label": "Zuzana Ujhelyiová", "value": "/clenove/ujhelyiova-zuzana/"},
+  
+  
+    { "label": "Doprava", "value": "/komunalni-volby-2018/program/doprava/"},
+  
+    { "label": "Kultura, volný čas a sport", "value": "/komunalni-volby-2018/program/kultura/"},
+  
+    { "label": "Otevřená radnice v moderním městě", "value": "/komunalni-volby-2018/program/radnice/"},
+  
+    { "label": "Školství", "value": "/komunalni-volby-2018/program/skolstvi/"},
+  
+    { "label": "Sociální služby", "value": "/komunalni-volby-2018/program/socialni-sluzby/"},
+  
+    { "label": "Územní rozvoj, bydlení", "value": "/komunalni-volby-2018/program/uzemni-rozvoj/"},
+  
+    { "label": "Zdravotnictví, bezpečnost", "value": "/komunalni-volby-2018/program/zdravotnictvi/"},
+  
+    { "label": "Životní prostředí", "value": "/komunalni-volby-2018/program/zivotni-prostredi/"},
+  
+  
+    { "label": "404 Stránka nebyla nalezena :(", "value": "/404/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/"},
+  
+    { "label": "", "value": "/"},
+  
+    { "label": "Podpořte nás", "value": "/podporte-nas/"},
+  
+    { "label": "Články podle tagu", "value": "/tags/"},
+  
+    { "label": "Naši lidé", "value": "/lide/"},
+  
+    { "label": "", "value": "/kontakt/"},
+  
+    { "label": "", "value": "/api/"},
+  
+    { "label": "Radnice", "value": "/radnice/"},
+  
+    { "label": "", "value": "/api/people.json"},
+  
+    { "label": "", "value": "/api/posts.json"},
+  
+    { "label": "", "value": "/api/search.json"},
+  
+    { "label": "", "value": "/api/tags.json"},
+  
+    { "label": "", "value": "/sitemap.xml"},
+  
+    { "label": "", "value": "/robots.txt"},
+  
+    { "label": "Aktuality", "value": "/aktuality/2/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/3/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/4/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/5/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/6/"},
+  
+    { "label": "Aktuality", "value": "/aktuality/7/"},
+  
+    { "label": "", "value": "/feed.xml"}
+  
 ]

@@ -1,41 +1,83 @@
----
----
 
-{% capture tags %}
-  {% for tag in site.tags %}
-    {{ tag[0] }}
-  {% endfor %}
-	{% for team in site.teams %}
-		{{ team.tags }}
-	{% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split:' ' | uniq | sort %}
+
 
 [
   {
-  {% for tag in sortedtags %}
-  {% assign posts = site.posts | where_exp: "item", "item.tags contains tag" %}
-  {% assign teams = site.teams | where_exp: "item", "item.tags contains tag" %}
-  "{{ tag }}":  [
-    {% for post in posts %}
+  
+  
+  
+  "Referendum,":  [
+    
       {
-        "title"   : "{{post.title}}",
-        "excerpt" : "{{post.excerpt | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
-        "url"     : "{{post.url | relative_path}}"
+        "title"   : "VYVOLEJME REFERENDUM O SPORTOVNÍ HALE",
+        "excerpt" : "Zřejmě poslední možností, jak říci bourání haly definitivní ne, je prostřednictvím místního referenda. Pokud se tedy bude referendum konat, pokud v něm bude hlasovat dostatečný počet lidí a pokud se tito lidé rozhodnou pro nebourání, musí politici výsledek referenda respektovat. V květnu se budou konat volby do Evropského parlamentu a nabízí se ideální příležitost, spojit místní referendum s nimi. Ještě není pozdě.",
+        "url"     : "/tiskove-zpravy/vyvolejme-referendum-o-sportovni-hale/"
       }
-      {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-    {% if teams.size > 0 %}{% if posts.size > 0%},{% endif %}{% endif %}
-    {% for team in teams %}
+      
+    
+    
+    
+  ],
+  
+  
+  
+  "Sportovní":  [
+    
       {
-        "uid"    : "{{team.uid}}",
-        "title"  : "Tým: {{team.title}}",
-        "excerpt": "{{team.excerpt | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
-        "url"    : "{{team.url | relative_path}}"
+        "title"   : "VYVOLEJME REFERENDUM O SPORTOVNÍ HALE",
+        "excerpt" : "Zřejmě poslední možností, jak říci bourání haly definitivní ne, je prostřednictvím místního referenda. Pokud se tedy bude referendum konat, pokud v něm bude hlasovat dostatečný počet lidí a pokud se tito lidé rozhodnou pro nebourání, musí politici výsledek referenda respektovat. V květnu se budou konat volby do Evropského parlamentu a nabízí se ideální příležitost, spojit místní referendum s nimi. Ještě není pozdě.",
+        "url"     : "/tiskove-zpravy/vyvolejme-referendum-o-sportovni-hale/"
       }
-      {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      
+    
+    
+    
+  ],
+  
+  
+  
+  "budějovice":  [
+    
+      {
+        "title"   : "Budějcké zastupitelstvo očima Pirátů",
+        "excerpt" : "Informovanost lidí je pro Piráty jedna z hlavních priorit, proto vám přinášíme shrnutí zasedání městského zastupitelstva ze dne 16.9. Projednávali jsme například kontroverzní téma letiště, plánovanou rekonstrukci kulturního domu Slávie nebo přípravu k projektu Vltavské cyklostezky. Došlo také k obměně našeho klubu, po rezignaci Adély Kučerové se k nám připojil Pirát Josef Špak. Příští zasedání zastupitelstva se bude konat 4.11., o kterém vás budeme samozřejmě také informovat. Budeme ale moc rádi, když se přijdete podívat a třeba nám při vystoupení občanů sdělíte váš názor na věc, který je pro nás zásadní.",
+        "url"     : "/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/"
+      }
+      
+    
+    
+    
+  ],
+  
+  
+  
+  "hala":  [
+    
+      {
+        "title"   : "VYVOLEJME REFERENDUM O SPORTOVNÍ HALE",
+        "excerpt" : "Zřejmě poslední možností, jak říci bourání haly definitivní ne, je prostřednictvím místního referenda. Pokud se tedy bude referendum konat, pokud v něm bude hlasovat dostatečný počet lidí a pokud se tito lidé rozhodnou pro nebourání, musí politici výsledek referenda respektovat. V květnu se budou konat volby do Evropského parlamentu a nabízí se ideální příležitost, spojit místní referendum s nimi. Ještě není pozdě.",
+        "url"     : "/tiskove-zpravy/vyvolejme-referendum-o-sportovni-hale/"
+      }
+      
+    
+    
+    
+  ],
+  
+  
+  
+  "zastupitelstvo":  [
+    
+      {
+        "title"   : "Budějcké zastupitelstvo očima Pirátů",
+        "excerpt" : "Informovanost lidí je pro Piráty jedna z hlavních priorit, proto vám přinášíme shrnutí zasedání městského zastupitelstva ze dne 16.9. Projednávali jsme například kontroverzní téma letiště, plánovanou rekonstrukci kulturního domu Slávie nebo přípravu k projektu Vltavské cyklostezky. Došlo také k obměně našeho klubu, po rezignaci Adély Kučerové se k nám připojil Pirát Josef Špak. Příští zasedání zastupitelstva se bude konat 4.11., o kterém vás budeme samozřejmě také informovat. Budeme ale moc rádi, když se přijdete podívat a třeba nám při vystoupení občanů sdělíte váš názor na věc, který je pro nás zásadní.",
+        "url"     : "/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/"
+      }
+      
+    
+    
+    
+  ]
+  
   }
 ]

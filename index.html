@@ -1,42 +1,238 @@
----
-layout: default
-rbar:
-   - textbox
-   - video
-   - calendar
-   - fb
-youtube:
-  id: nTE2ryZpqjs
-  #playlist: PLKqQxo2sZ8NfKKow6zTMyVZF7jfzpIMw9 
-  title: "Video"
-  button:
-    url: "https://www.youtube.com/user/CeskaPiratskaStrana/videos"
-    title: "Další videa na našem YouTube kanálu"
-textbox:
-  title: Náš newsletter
-  text: >
-    <!-- Begin Mailchimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-    #mc_embed_signup{background:clear; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-      We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <div id="mc_embed_signup">
-    <form action="https://pirati.us4.list-manage.com/subscribe/post?u=22756da9e8c54e91a23d46e5f&amp;id=2cf75a8bb4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-    <label for="mce-EMAIL">Odebírej novinky e-mailem</label>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mailová adresa" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_22756da9e8c54e91a23d46e5f_2cf75a8bb4" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Přihlásit se" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-        </div>
-    </form>
-    </div>
-    <!--End mc_embed_signup-->
----
+<!DOCTYPE html>
+<html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="">
 
-<!--Municipal elections results on the main page disabling. Request from Zuzka Klusová.
+  <head>
+    
+    
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piráti České Budějovice</title>
+    <meta name="author" content="Česká pirátská strana" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="">
+    <meta name="keywords" content="
+            Piráti, česká pirátská strana, svoboda, demokracie, Piráti České Budějovice, České Budějovice
+            
+            , index.html
+            
+            
+    " />
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-128x128.png" sizes="128x128">
+    <link rel="alternate" type="application/rss+xml" title="Piráti České Budějovice RSS" href="/feed.xml">
+    <meta name="application-name" content="Piráti České Budějovice">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="/assets/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-square70x70logo" content="/assets/img/favicon/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/assets/img/favicon/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/assets/img/favicon/mstile-310x150.png">
+    <meta name="msapplication-square310x310logo" content="/assets/img/favicon/mstile-310x310.png">
+    <meta property="og:url"           content="http://0.0.0.0:4000/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Piráti České Budějovice" />
+    <meta property="og:description"   content="" />
+    
+    <meta property="og:image"         content="http://0.0.0.0:4000/assets/img/brand/logo-round.png" />
+    
+    <!-- Fonts -->
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/assets/main-bd9b4a88720bc73a7005e89c832a6a69e19450d9a2ef0a59eb70427125ea70ee.css">
+    
+    <!-- API Mapy.cz that has to be in the header -->
+    
+
+    
+    <script>
+  window.pirates = window.pirates || {};
+  pirates.priorityStack = [];
+</script>
+
+</head>
+
+
+
+  <body>
+
+    <aside class="o-section o-section--smaller c-header-bar u-center--medium-down">
+  <div class="row">
+    <div class="o-section-inner" style="padding: 3px;">
+      <div class="medium-12 columns">
+        
+        <a href="http://0.0.0.0:4000/">
+          <span class="c-header-bar__title">Piráti České Budějovice</span>
+        </a>
+        <div class="c-header-bar-divider show-for-medium"></div>
+        
+
+        <ul class="c-header-bar-items show-for-medium">
+          
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+            <a href="https://www.facebook.com/PiratiCB" rel="noopener noreferrer" target="_blank" title="Naše stránka na Facebooku">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a></li>
+          
+          
+          
+          
+          <li class="c-header-bar__item c-header-bar__item--smallerSpace">
+            <a href="/feed.xml" rel="noopener noreferrer" target="_blank" title="Články tohoto webu v RSS">
+              <i class="fa fa-rss" aria-hidden="true"></i>
+            </a>
+          </li>
+          
+          
+          
+        </ul>
+        <div class="c-header-bar-divider show-for-large"></div>
+
+        <ul class="c-header-bar-items show-for-large">
+          
+          <li class="c-header-bar__item">
+            <a href="https://www.pirati.cz" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">pirati.cz</span>
+            </a>
+          </li>
+          
+          <li class="c-header-bar__item">
+            <a href="https://wiki.pirati.cz" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">wiki.pirati.cz</span>
+            </a>
+          </li>
+          
+          <li class="c-header-bar__item">
+            <a href="https://praha11.pirati.cz/piratske-listy" rel="noopener noreferrer" target="_blank">
+              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              <span class="c-header-bar__itemDescription">Pirátské listy</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</aside>
+
+
+    
+        <div class="c-top-bar">
+  <div class="row">
+    <div class="columns small-12">
+      <div class="c-top-bar__body">
+        <div class="c-top-bar__brand">
+          <a href="/" class="c-top-bar__brand-link">
+            <img src="/assets/img/brand/logo_napis_white.svg" alt='Česká pirátská strana' class="c-top-bar__brand-image u-center-medium-down u-stacked">
+          </a>
+        </div>
+
+	
+        <div class="c-top-bar__search">
+          <div class="__vue-root" data-app="SiteSearch">
+            <!-- this will get replaced by Vue.js content, placeholder only -->
+            <div class="c-search c-top-bar__search-container">
+              <input class="c-search__input c-top-bar__search-input" type="search" id="search" placeholder="Hledaný výraz">
+              <button type="button" class="c-search__confirm c-top-bar__search-confirm" id="searchsub"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+	
+
+        <div id="responsive-menu" class="c-responsive-menu">
+          <ul class="c-responsive-menu__items" data-dropdown-menu="">
+            
+            <li class="c-responsive-menu__item hide-for-medium ">
+              <a href="/">Úvod</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/aktuality/">Aktuality</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/lide/">Naši lidé</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/radnice/">Radnice</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/komunalni-volby-2018/">Program</a>
+            </li>
+            
+            <li class="c-responsive-menu__item  ">
+              <a href="/podporte-nas/">Podpořte nás</a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <div class="c-responsive-menu-toggle hide-for-large">
+          <span data-responsive-toggle="responsive-menu" id="menuTogge" data-hide-for="large">
+            <button class="c-responsive-menu-toogle__button" type="button" data-toggle="">
+              <span class="c-responsive-menu-toggle__caption">Menu</span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        
+            
+  
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+
+        
+    
+
+    <div class="page-content">
+      <div class="wrapper">
+        <!--Municipal elections results on the main page disabling. Request from Zuzka Klusová.
 
 <div class="row">
   <div class="columns">
@@ -48,7 +244,9 @@ textbox:
   </div>
 </div>
 
-{% include election-crossroad.html places=site.data.volby %}
+<section class="msk-election-crossroad row u-uniform-size-row">
+    
+</section>
 
 -->
 
@@ -59,18 +257,668 @@ textbox:
         <header class="o-section-header">
           <h1 class="o-section__heading">Aktuální témata</h1>
         </header>
-        {% for article in site.posts limit: 6 %}
-          {% include articles/horizontal-article.html article=article %}
-        {% endfor %}
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/co-v-lednu-projednavaly-komise-mesta/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/co-v-lednu-projednavaly-komise-mesta/">
+          <img src="/assets/6478e3-70ee14fa07b49eb09f3565f8239d9bcf7308f19969ccf5e2118f368c52237ac0.jpg" alt="CO V LEDNU PROJEDNÁVALY KOMISE MĚSTA">
+        </a>
+        <meta itemprop="url" content="/assets/6478e3-70ee14fa07b49eb09f3565f8239d9bcf7308f19969ccf5e2118f368c52237ac0.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/co-v-lednu-projednavaly-komise-mesta/" itemprop="url">CO V LEDNU PROJEDNÁVALY KOMISE MĚSTA</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Komise jsou poradní orgán města. Každá komise má 11 členů a svou činnost vykonává 10 komisí dle různého zaměření. Město tak dostává informace a doporučení od komisí například pro dopravu, architekturu, školství…
+
+</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/co-v-lednu-projednavaly-komise-mesta/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 02.02.2020
+        <meta itemprop="datePublished" content="2020-02-02T11:44:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Bc. Kamil Podzimek
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/jihocesti-pirati-predstavuji-lidra-do-krajskych-voleb/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/jihocesti-pirati-predstavuji-lidra-do-krajskych-voleb/">
+          <img src="/assets/d6cf93-3e07d201a3897bf133a6c2a59310b45415d0e05e286eb20d6878e795024d0047.jpg" alt="Jihočeští Piráti představují lídra do krajských voleb">
+        </a>
+        <meta itemprop="url" content="/assets/d6cf93-3e07d201a3897bf133a6c2a59310b45415d0e05e286eb20d6878e795024d0047.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/jihocesti-pirati-predstavuji-lidra-do-krajskych-voleb/" itemprop="url">Jihočeští Piráti představují lídra do krajských voleb</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Ostrava, 11. ledna 2020 - Jihočeští Piráti dnes na zasedání celostátního fóra v Ostravě představí svého kandidáta na hejtmana. Lídrem do letošních krajských voleb si zvolili předsedu zastupitelského klubu v Českých Budějovicích a...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/jihocesti-pirati-predstavuji-lidra-do-krajskych-voleb/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 11.01.2020
+        <meta itemprop="datePublished" content="2020-01-11T17:16:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Lukáš Hypša
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/mame-jmena-ulic-ve-kterych-ma-byt-omezena-oteviraci-doba-podniku/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/mame-jmena-ulic-ve-kterych-ma-byt-omezena-oteviraci-doba-podniku/">
+          <img src="/assets/88c6ba-cc4158af171e240bbe3c093da50387bd9b432e312936ef8586b5463ca8ea7144.jpg" alt="Máme jména ulic, ve kterých má být omezena otevírací doba podniků!">
+        </a>
+        <meta itemprop="url" content="/assets/88c6ba-cc4158af171e240bbe3c093da50387bd9b432e312936ef8586b5463ca8ea7144.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/mame-jmena-ulic-ve-kterych-ma-byt-omezena-oteviraci-doba-podniku/" itemprop="url">Máme jména ulic, ve kterých má být omezena otevírací doba podniků!</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Rada tají místa, kde má vyhláška platit (viz materiály k bodu 6). Informace tak má k dispozici pouze vybraná hrstka zastupitelů. Ale proč? Čeho se zas radní bojí? Možná se bojí lobbingu....</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/mame-jmena-ulic-ve-kterych-ma-byt-omezena-oteviraci-doba-podniku/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 02.12.2019
+        <meta itemprop="datePublished" content="2019-12-02T14:33:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Jan Hošek
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/mesto-se-vsemozne-snazi-utajit-informace-z-rady/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/mesto-se-vsemozne-snazi-utajit-informace-z-rady/">
+          <img src="/assets/f2961f-a87234ed80833a24a6fefa1b576e59734f61d856ca39a8144eebf08b0b51d6a8.jpg" alt="Město se všemožně snaží utajit informace z rady">
+        </a>
+        <meta itemprop="url" content="/assets/f2961f-a87234ed80833a24a6fefa1b576e59734f61d856ca39a8144eebf08b0b51d6a8.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/mesto-se-vsemozne-snazi-utajit-informace-z-rady/" itemprop="url">Město se všemožně snaží utajit informace z rady</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Rada města České Budějovice dělá na svých zasedáních zvukový záznam. O ten si požádal pirátský zastupitel Lukáš Mareš v souladu se zákonem o svobodném přístupu k informacím. Tajemník úřadu mu je odmítá dát...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/mesto-se-vsemozne-snazi-utajit-informace-z-rady/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 24.11.2019
+        <meta itemprop="datePublished" content="2019-11-24T17:56:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+MUDr. Lukáš Mareš
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/co-se-projednavalo-na-listopadovem-zastupitelstvu/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/co-se-projednavalo-na-listopadovem-zastupitelstvu/">
+          <img src="/assets/32c3a5-954b38c50b248f6c67b70f85d2f4a16f1b2ae268ead3f4f97886f32976aa1a9d.jpg" alt="Co se projednávalo na listopadovém zastupitelstvu?">
+        </a>
+        <meta itemprop="url" content="/assets/32c3a5-954b38c50b248f6c67b70f85d2f4a16f1b2ae268ead3f4f97886f32976aa1a9d.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/co-se-projednavalo-na-listopadovem-zastupitelstvu/" itemprop="url">Co se projednávalo na listopadovém zastupitelstvu?</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">V pondělí 4. listopadu proběhlo již osmé zasedání zastupitelstva České Budějovice. Na programu byl například návrh pro pořízení změny územního plánu nebo mimořádná dotace na zřízení multifunkčního hřiště. Z iniciativy IT výboru jste...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/co-se-projednavalo-na-listopadovem-zastupitelstvu/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 05.11.2019
+        <meta itemprop="datePublished" content="2019-11-05T06:10:00-06:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Lukáš Hypša
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
+          <article itemtype="http://schema.org/BlogPosting" class="c-article-listing" itemscope="">
+  <link itemprop="mainEntityOfPage" href="http://0.0.0.0:4000/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/">
+
+  <div class="c-article-listing__row">
+    <div class="c-article-listing__photobox">
+      <div itemprop="image" itemtype="http://schema.org/ImageObject" class="c-article-listing__image " itemscope="">
+        
+        <a href="/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/">
+          <img src="/assets/c62d67-c7d0c7aaed9468028896325b0e9398eca064af1b335a91b1128eb4fd2c115837.jpg" alt="Budějcké zastupitelstvo očima Pirátů">
+        </a>
+        <meta itemprop="url" content="/assets/c62d67-c7d0c7aaed9468028896325b0e9398eca064af1b335a91b1128eb4fd2c115837.jpg">
+      </div>
+    </div>
+
+    <div class="c-article-listing__content">
+      <!-- Headline -->
+      <h1 itemprop="headline" class="c-article-listing__headline t-h4">
+        <a class="c-headline-anchor" href="/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/" itemprop="url">Budějcké zastupitelstvo očima Pirátů</a>
+      </h1>
+      <p itemprop="description" class="c-article-listing__perex u-stacked t-font-features">Informovanost lidí je pro Piráty jedna z hlavních priorit, proto vám přinášíme shrnutí zasedání městského zastupitelstva ze dne 16.9. Projednávali jsme například kontroverzní téma letiště, plánovanou rekonstrukci kulturního domu Slávie nebo přípravu k...</p>
+      <a class="c-emphasized-anchor u-stacked" href="/tiskove-zpravy/budejcke-zastupitelstvo-ocima-piratu/">Přečíst celý článek &rsaquo;</a>
+    </div>
+    <!-- Publisher -->
+    <div itemprop="publisher" itemtype="http://schema.org/Organization" class="u-hidden" itemscope="">
+      <div itemprop="logo" itemtype="http://schema.org/ImageObject" itemscope="">
+        <meta itemprop="url" content="/assets/img/brand/logo.svg"> </div>
+      <meta itemprop="name" content="Česká pirátská strana">
+    </div>
+  </div>
+
+  <div class="c-article-listing__meta">
+    <div class="c-metadata-block-section">
+      <!-- Date published -->
+      <span itemprop="description" class="c-metadata-block-section__item">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> 08.10.2019
+        <meta itemprop="datePublished" content="2019-10-08T18:34:00-05:00" />
+      </span>
+
+      <!-- Authors -->
+      <span itemprop="author" itemtype="http://schema.org/Person" class="c-metadata-block-section__item" itemscope="">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <span itemprop="name">
+            
+Lukáš Hypša
+
+
+        </span>
+      </span>
+    </div>
+  </div>
+</article>
+
+        
         <div class="c-article-listing__nextbox">
-          <a href="{{'/aktuality/' | relative_url}}" rel="next" class="button expanded large">Další články</a>
+          <a href="/aktuality/" rel="next" class="button expanded large">Další články</a>
         </div>
       </div>
     </section>
   </div>
-  {% if page.rbar %}
+  
   <div class="medium-12 large-4 columns">
-    {% include right-bar/rbar.html param='rbar' %}
-  </div>
-  {% endif %}
+    <aside class="o-section">
+  <div class="o-section-inner o-section-inner--rightBlock">
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+
+<div class="o-section-block">
+ <ul class="c-widget-accordion c-widget-accordion--dark" data-accordion="" data-allow-all-closed="true">
+   <li class="c-widget-accordion-item is-active" data-accordion-item="">
+     <a href="#" class="c-widget-accordion-link">
+       <span class="c-widget-accordion__title"> Náš newsletter</span>
+     </a>
+     <div class="c-widget-accordion-content c-content-block" data-tab-content="">
+       <!-- Begin Mailchimp Signup Form --> <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css"> <style type="text/css"> #mc_embed_signup{background:clear; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+  We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style> <div id="mc_embed_signup"> <form action="https://pirati.us4.list-manage.com/subscribe/post?u=22756da9e8c54e91a23d46e5f&amp;id=2cf75a8bb4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+<label for="mce-EMAIL">Odebírej novinky e-mailem</label> <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="e-mailová adresa" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_22756da9e8c54e91a23d46e5f_2cf75a8bb4" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Přihlásit se" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form> </div> <!--End mc_embed_signup-->
+
+     </div>
+   </li>
+ </ul>
 </div>
+
+
+        
+        
+        
+        
+        
+        
+
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+          
+<div class="o-section-block show-for-medium">
+  <ul class="c-widget-accordion" data-accordion="" data-allow-all-closed="true">
+    <li class="c-widget-accordion-item is-active" data-accordion-item="">
+
+      
+      <a href="#" class="c-widget-accordion-link c-widget-accordion-link--yt">
+	      <span class="c-widget-accordion__title">Video</span>
+      </a>
+      
+
+      <div class="c-widget-accordion-content" data-tab-content="">
+        <div class="c-widget-accordion-content-video">
+          
+          <div class="c-widget-accordion-content__video u-video-wrapper-16-9">
+          
+             
+		  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nTE2ryZpqjs?rel=0&amp;controls=0" style="border: 0;" allowfullscreen=""></iframe>
+             
+             
+	     
+          
+          </div>
+
+          
+          <div class="c-widget-accordion-content__cta">
+		  <a class="expanded button large u-0margin" href=https://www.youtube.com/user/CeskaPiratskaStrana/videos target="_blank" rel="noopener noreferrer">
+			  Další videa na našem YouTube kanálu
+		  </a>
+          </div>
+          
+
+        </div>
+      </div>
+     
+    </li>
+  </ul>
+</div>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <div class="o-section-block show-for-medium">
+  <ul class="c-widget-accordion" data-accordion="" data-allow-all-closed="true">
+    <li class="c-widget-accordion-item is-active" data-accordion-item="">
+      <a href="#" class="c-widget-accordion-link c-widget-accordion-link--fb">
+        <span class="c-widget-accordion__title">Facebook</span>
+      </a>
+      <div class="c-widget-accordion-content" data-tab-content="">
+        <div class="fb-page" data-href="https://www.facebook.com/PiratiCB" data-tabs="timeline" data-width="500" data-height="550" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/PiratiCB">
+              <a href="https://www.facebook.com/PiratiCB">
+                Najdete nás na Facebooku:<br>
+                Piráti České Budějovice
+              </a>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+    
+  </div>
+</aside>
+
+  </div>
+  
+</div>
+
+      </div>
+    </div>
+
+    <a href="https://github.com/pirati-web/cb.pirati.cz/edit/master/index.html" class="c-suggest-improvement show-for-medium hide-for-print">
+  <i class="fa fa-pencil"></i>
+  Navrhni úpravu
+</a>
+
+<footer class="o-section o-section--darker o-section--bigger u-inverted u-cf">
+  <div class="o-section-inner">
+    <div class="row">
+      <div class="medium-12 large-3 u-stacked--medium-down u-center--medium-down columns">
+        <img src="/assets/img/brand/logo_napis_white.svg" alt='Česká pirátská strana' class="logo u-center-medium-down u-stacked">
+        <p class="u-noWrap u-stacked u-smaller-line-height show-for-large">
+          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2020. Všechna práva vyhlazena.
+          <br>Sdílejte a nechte ostatní sdílet za stejných
+          <br>podmínek.
+      </div>
+      <div class="medium-12 large-6 u-stacked--medium-down u-center--medium-down columns show-for-medium">
+        <div class="row">
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Připoj se</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://nalodeni.pirati.cz">Naloďte se na palubu !</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/kontakt/">Dej nám vědět</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Volby 2018</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/komunalni-volby-2018/povolebni-strategie/">Povolební strategie</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/komunalni-volby-2018/">Kandidátka</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+            <div class="columns small-12 medium-4">
+                <nav class="c-vertical-navigation u-center---medium-down">
+                  
+                    <h3 class="c-vertical-navigation__title">Otevřenost</h3>
+                  
+                  <ul class="c-vertical-navigation-items">
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://ucet.pirati.cz">Transparentní účet</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://smlouvy.pirati.cz">Registr smluv</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="https://wiki.pirati.cz/fo/otevrene_ucetnictvi">Otevřené účetnictví</a>
+                    </li>
+                    
+                    <li class="c-vertical-navigation__item">
+                      <a href="/lide/platy-2019/">Odměny za rok 2019</a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+            </div>
+          
+        </div>
+      </div>
+      <div class="medium-12 large-3 u-stacked--medium-down columns u-center--medium-down">
+        <nav class="c-vertical-navigation u-stacked">
+          <h3 class="c-vertical-navigation__title">Buďte s námi v síti</h3>
+          <ul class="c-vertical-navigation-items c-vertical-navigation-items--horizontal">
+            
+            <li class="c-vertical-navigation__item">
+              <a href="https://www.facebook.com/PiratiCB" rel="noopener noreferrer" title="Facebook - Čiráti České Budějovice">
+                <i class="fa fa-facebook c-icon c-icon--big" aria-hidden="true"></i>
+              </a>
+            </li>
+            
+            
+            
+            
+          </ul>
+        </nav>
+        <p class=" u-stacked u-maxWidth80percent u-smaller-line-height hide-for-large">
+          <span class="u-mirror-horizontally">&copy;</span> Piráti, 2020. Všechna práva vyhlazena.
+          <br> Sdílejte a nechte ostatní sdílet za stejných podmínek.
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+<div class="__vue-root" data-app="ScrollTop"></div>
+
+    
+<link rel="stylesheet" href="/assets/js/main.fbbba5cee41a3fd5443c.0.css" />
+<link rel="stylesheet" href="/assets/js/main.fbbba5cee41a3fd5443c.css" />
+<script src="/assets/js/0.main.fbbba5cee41a3fd5443c.js"></script>
+<script src="/assets/js/main.fbbba5cee41a3fd5443c.js"></script>
+
+
+<script>
+  /* Facebook */
+  window.fbAsyncInit = function() {
+      FB.init({
+      appId      : '1526197851008996',
+      xfbml      : true,
+      version    : 'v2.5'
+      });
+  };
+
+  (function(d, s, id){
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {return;}
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+
+
+
+
+
+  </body>
+
+</html>

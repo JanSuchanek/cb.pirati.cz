@@ -1,19 +1,311 @@
----
----
 [
-  {% for person in site.people %}
+  
     {
-      "uid"      : "{{ person.uid }}",
-      "name"     : "{{ person.name | escape }}",
-      "fullname" : "{{ person.fullname }}",
-      "category" : "{{ person.categories | join: ' ' }}",
-      "img"      : "{{ person.img | prepend: '/assets/img/' | relative_url }}",
-      "mail"     : "{{ person.mail | join: ','}}",
-      "mob"      : "{{ person.mob | join: ','}}",
-      "description" : "{{ person.description | escape }}",
-      "profiles" : "{{ person.mail | join: ','}}",
-      "content"	 : "{{ person.content | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
-      "url"      : "{{ person.url | relative_url }}"
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "uid"      : "zuzana.bohmova",
+      "name"     : "Zuzana Böhmová",
+      "fullname" : "",
+      "category" : "pms kandidat-obec",
+      "img"      : "/assets/img/people/zuzana-bohmova.jpg",
+      "mail"     : "zuzana.bohmova@pirati.cz",
+      "mob"      : "",
+      "description" : "místopředseda MS &lt;br&gt;▪ předseda Výboru pro otevřenou radnici a digitalizaci &lt;br&gt;▪ Komise pro výchovu, vzdělávání a národnostní menšiny &lt;br&gt;▪ Mediální komise",
+      "profiles" : "zuzana.bohmova@pirati.cz",
+      "content"	 : "místopředseda MS ▪ předseda Výboru pro otevřenou radnici a digitalizaci ▪ Komise pro výchovu, vzdělávání a národnostní menšiny ▪ Mediální komiseJako učitelku žijící a působící na Praze 11 mě nejvíce zajímá oblast školství. Městská část, tedy zřizovatel, je zodpovědná za úroveň zdejších mateřských a základních škol. Chceme zlepšit komunikaci mezi MČ, školami, rodiči a žáky. Naší prioritou je jasné prezentování jednotlivých škol a jejich služeb tak, aby si rodič mohl vybrat, jakou školu pro své dítě chce. Dále se zajímám o oblast kultury, a to především výtvarné.",
+      "url"      : "/clenove/boehmova-zuzana/"
+    },
+  
+    {
+      "uid"      : "jiri.dohnal",
+      "name"     : "Jiří Dohnal",
+      "fullname" : "",
+      "category" : "kandidat-obec clenove",
+      "img"      : "/assets/img/people/jiri-dohnal.jpg",
+      "mail"     : "jiri.dohnal@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ starosta pro informační technologie, digitalizaci, finanční politiku, krizové řízení a bydlení",
+      "profiles" : "jiri.dohnal@pirati.cz",
+      "content"	 : "▪ starosta pro informační technologie, digitalizaci, finanční politiku, krizové řízení a bydleníJako jihoměstský patriot chci pracovat na tom, aby se Praha 11 opět stala místem, kde se lidé setkávají, pracují a jsou hrdí, že je jejich domovskou adresou. Pro naplnění téhle vize považuji za nezbytné zajistit naší městské části udržitelný rozvoj a otevřít ji jejím občanům, kteří musí mít možnost přímo se na samosprávě podílet.Odkazy  Veřejný kalendář starosty  Wiki",
+      "url"      : "/clenove/dohnal-jiri/"
+    },
+  
+    {
+      "uid"      : "martin.duska",
+      "name"     : "Martin Duška",
+      "fullname" : "",
+      "category" : "kandidat-obec clenove",
+      "img"      : "/assets/img/people/martin-duska.jpg",
+      "mail"     : "martin.duska@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ radní pro dopravu a otevřenou radnici",
+      "profiles" : "martin.duska@pirati.cz",
+      "content"	 : "▪ radní pro dopravu a otevřenou radniciVážení spoluobčané, rád bych Vám představil své vize ohledně mých gescí. V dopravě se chci věnovat především navyšování počtu parkovacích míst, údržbě a rekonstrukci stávajících komunikací svěřených do správy městské části. Dále chci hledat řešení pro klidnou dopravu na Jižním Městě. V rámci gesce otevřená radnice bych rád přehledně zpřístupnil veškerá data v rámci zákonných norem.",
+      "url"      : "/clenove/duska-martin/"
+    },
+  
+    {
+      "uid"      : "vratislav.filler",
+      "name"     : "Vratislav Filler",
+      "fullname" : "",
+      "category" : "delegati",
+      "img"      : "/assets/img/people/vratislav-filler.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Dopravní komise",
+      "profiles" : "",
+      "content"	 : "▪ Dopravní komiseNa Jižním Městě bydlím od roku 2009. Patnáct let se zabývám cyklistickou dopravou v Praze, stál jsem u vzniku cyklomapy a webu Prahou na kole a několik let jsem tyto stránky vedl jako šéfredaktor. Jsem spoluautorem naučné knihy Městem na kole. Zhruba deset let pracuji ve spolku Auto * Mat, kde jsem mezi roky 2012 a 2018 vedl jeho odborný dopravní tým. V něm se dlouhodobě (kromě cyklodopravy) zabývám velkými dopravními stavbami a řešením dopravy ve vztahu k územnímu rozvoji. Od roku 2012 jsem (s kratší přestávkou) členem magistrátní komise pro cyklistickou dopravu. Kromě cyklodopravy se zabývám dopravou pěší a systémem dopravy ve městech obecně. V dopravní komisi Prahy 11 jsem již působil mezi roky 2016 - 2018. Nominaci od Pirátů do dopravní komise jsem přijal jako nezávislý odborník.Kromě dopravy se odborně zabývám také kosmickou geodézií - pracuji na částečný úvazek ve Výzkumném ústavu geodetickém, topografickém a kartografickém, na Geodetické observatoři Pecný v Ondřejově. Jsem ženatý a mám dvě dcery.",
+      "url"      : "/clenove/filler-vratislav/"
+    },
+  
+    {
+      "uid"      : "richard.frank",
+      "name"     : "Richard Frank",
+      "fullname" : "",
+      "category" : "delegati",
+      "img"      : "/assets/img/people/richard-frank.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Bytová komise",
+      "profiles" : "",
+      "content"	 : "▪ Bytová komiseDůchodce. Mám VŠ právnické vzdělání. Zajímám se o sport, kterému se rekreačně věnují. Příležitostně chodím vypomáhat na úsek parkování Jihoměstské majetkové.",
+      "url"      : "/clenove/frank-richard/"
+    },
+  
+    {
+      "uid"      : "jirina.frankova",
+      "name"     : "Jiřina Franková",
+      "fullname" : "",
+      "category" : "delegati",
+      "img"      : "/assets/img/people/jirina-frankova.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Komise pro seniory",
+      "profiles" : "",
+      "content"	 : "▪ Komise pro senioryOd roku 1979 (po mateřské dovolené) jsem pracovala jako odborný referent v Ústavu zdravotnických informací a statistiky. Pracovala jsem zde až do důchodu, do kterého jsem odešla v roce 2013.Politika minulá i současná jde mimo mě, v pracovním životě jsem byla pouze v ROH. Mám dvě děti, čtyři vnoučata. Vdaná jsem 46 let. Na Jižním Městě bydlíme, dříve s oběma syny, nyní s manželem, 41 let. Mé záliby v současné době jsou povětšinou vnoučata. S manželem se celkem aktivně zúčastňujeme akci sociálního odboru JM, sportovních her, společenských akcí, já jógy.",
+      "url"      : "/clenove/frankova-jirina/"
+    },
+  
+    {
+      "uid"      : "josef.kocourek",
+      "name"     : "Josef Kocourek",
+      "fullname" : "",
+      "category" : "kontaktni_osoba pms kandidat-obec",
+      "img"      : "/assets/img/people/josef-kocourek.jpg",
+      "mail"     : "josef.kocourek@pirati.cz",
+      "mob"      : "+420 778 421 042",
+      "description" : "předseda MS &lt;br&gt; ▪ místopředseda Výboru pro územní rozvoj a životní prostředí &lt;br&gt; ▪ Komise pro strategické a územní plánování",
+      "profiles" : "josef.kocourek@pirati.cz",
+      "content"	 : "předseda MS  ▪ místopředseda Výboru pro územní rozvoj a životní prostředí  ▪ Komise pro strategické a územní plánováníChci se podílet na změně pocitu lidí, že radnice tu není pro developery, ale pro své občany. Co nejvíce podporovat otevřenost radnice a s přehlednými informacemi aktivně komunikovat s občany o rozvoji našeho města. Praha 11 úotřebuje více vodních prvků a zeleně.",
+      "url"      : "/clenove/kocourek-josef/"
+    },
+  
+    {
+      "uid"      : "michal.kovarik",
+      "name"     : "Michal Kovařík",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/michal-kovarik.jpg",
+      "mail"     : "michal.kovarik@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ předseda Komise pro kulturu a spolky &lt;br&gt;▪ Komise mediální &lt;br&gt;▪ Komise pro realizaci koncepce sociálních a návazných služeb na Praze 11 &lt;br&gt;▪ člen dozorčí rady Kulturní jižní město",
+      "profiles" : "michal.kovarik@pirati.cz",
+      "content"	 : "zastupitel MČ Praha 11, gesce: kulturanakladatelský pracovník/publicistačlen PirátůDlouhodobě se zajímám o oblast kultury v Praze, zejména v Jihoměstské části.V zastupitelstvu MČ Praha 11 bych chtěl podporovat nejen rozšíření a všestranný pozitivní rozvoj kulturní oblasti na Jižním Městě, ale vše, co souvisí se zájmem o blaho občana, prevencí kriminality, udržitelným rozvojem a myšlením zdravého rozumu.Mezi mé kompetence patří zejména kultura a volný čas, dále bezpečnost a eliminace sociálně-patologických jevů.",
+      "url"      : "/clenove/kovarik-michal/"
+    },
+  
+    {
+      "uid"      : "ladislav.kos",
+      "name"     : "Ladislav Kos",
+      "fullname" : "",
+      "category" : "kandidat-obec clenove mhmp",
+      "img"      : "/assets/img/people/ladislav-kos.jpg",
+      "mail"     : "ladislav.kos@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ předseda Sportovní komise MHMP &lt;br&gt;▪ Výboru pro dopravu MHMP &lt;br&gt;▪ Výboru pro zdravotnictví, sport a volný čas MHMP &lt;br&gt;▪ Dopravní komise P11",
+      "profiles" : "ladislav.kos@pirati.cz",
+      "content"	 : "zastupitel MČ Praha 11, zastupitel HLMP, gesce: územní rozvoj, doprava, sportkonzultant inline marketingučlen PirátůChci se věnovat třem oblastem:  Řešení dopravy – parkování, renovaci a výstavbě chodníků a cyklostezek a rozumné koordinaci linek MHD.  Transparentní radnici, úřad nesmí lidem přidělávat práci, naopak jim musí sloužit.  Rozvoji Prahy 11, chránit a rozšiřovat plochy, kde občané relaxují a aktivně tráví svůj volný čas.",
+      "url"      : "/clenove/ladislav-kos/"
+    },
+  
+    {
+      "uid"      : "otmar.litera",
+      "name"     : "Otmar Litera",
+      "fullname" : "",
+      "category" : "delegati",
+      "img"      : "/assets/img/people/otmar-litera.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Sportvní komise",
+      "profiles" : "",
+      "content"	 : "11.rokem působím jako trenér ve fotbalovém klubu FC Háje Jižní Město. 8 let jsem působil v pozici sportovního vedení a orientuji se v činnostech spojených se sportovním chodem klubu. Od roku 2013 působím v komisi mládeže Fotbalové asociace ČR za Čechy. V současné době jsem také svazovým trenérem mládeže a pohybuji se v oblasti vzdělávání trenérů.",
+      "url"      : "/clenove/litera-otmar/"
+    },
+  
+    {
+      "uid"      : "martina.parikova",
+      "name"     : "Martina Paříková",
+      "fullname" : "",
+      "category" : "priznivci kandidat-obec",
+      "img"      : "/assets/img/people/martina-parikova.jpg",
+      "mail"     : "martina.parikova@gmail.com",
+      "mob"      : "",
+      "description" : "",
+      "profiles" : "martina.parikova@gmail.com",
+      "content"	 : "Software Engineerpříznivec PirátůNa Jižním Městě se žije skvěle, přesto zde vidím mnoho věcí, které lze zlepšit. Zajímá mě především oblast životního prostředí a školství. Nicméně, za zásadní považuji to, aby v politice vládla slušnost, transparentnost, občanská informovanost a snaha změnit k lepšímu život občanů, nejen svůj vlastní. Bez toho to nepůjde.",
+      "url"      : "/clenove/martina-parikova/"
+    },
+  
+    {
+      "uid"      : "jan.mejsnar",
+      "name"     : "Jan Mejsnar",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/jan-mejsnar.jpg",
+      "mail"     : "jan.mejsnar@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ předseda Komise pro životní prostředí &lt;br&gt;▪ Komise sociální a zdravotní &lt;br&gt;▪ Kontrolní výbor &lt;br&gt;▪ místopředseda dozorčí rady Jihoměstská sociální",
+      "profiles" : "jan.mejsnar@pirati.cz",
+      "content"	 : "zastupitel MČ Praha 11, gesce: sociální a zdravotní věci, životní prostředímeteorolog, vědecký pracovníkčlen PirátůNa Jižním Městě jsem s rodinou zakotvil loni na jaře a od té doby jsem poznal, jak samotnou městskou část, tak i radnici městské části. Obě dvě nemají aktuálně dobrou image. Rád bych přispěl k tomu, že se do politiky Prahy 11 vrátí slušnost a věcnost, do rozhodování se zapojí občané městské části, zlepší se nálada úředníků a časem získá Praha 11 nálepku vzorové městské části. V komunální politice se zajímám o územní rozvoj, strategické plánování, kontrolní činnost a životní prostředí, ale blízké jsou mi i další oblasti.",
+      "url"      : "/clenove/mejsnar-jan/"
+    },
+  
+    {
+      "uid"      : "michal.veselsky",
+      "name"     : "Michal Veselský",
+      "fullname" : "",
+      "category" : "priznivci kandidat-obec",
+      "img"      : "/assets/img/people/michal-veselsky.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "člen SZ &lt;br&gt;▪ Finanční komise &lt;br&gt;▪ Komise pro životní prostředí",
+      "profiles" : "",
+      "content"	 : "výzkumný pracovníkčlen SZNa Jižním Městě žiji už 28 let a v posledním období se věnuji zejména rozpočtu. I proto bych chtěl otevřít širokou debatu, zda Jižní Město skutečně potřebuje tramvajovou linku ze Spořilova, kterou většina z nás využije jen zřídka a která bude stát řádově miliardy korun, nebo zda raději oslovit celopražské vedení, aby poskytlo Praze 11 stamiliony, tedy mnohem menší částku, na vykoupení problematických developerských pozemků, které mohou být následně využity pro smysluplný rozvoj Jižního Města.",
+      "url"      : "/clenove/michal-veselsky/"
+    },
+  
+    {
+      "uid"      : "filip.miler",
+      "name"     : "Filip Miler",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/filip-miler.jpg",
+      "mail"     : "filip.miler@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ Výbor pro otevřenou radnici a digitalizaci",
+      "profiles" : "filip.miler@pirati.cz",
+      "content"	 : "IT specialistačlen PirátůFilip Miler je členem Pirátské strany od roku 2010. Filip pochází ze Vsetína a od roku 1979 žije v Praze.Vystudoval střední průmyslovou školu elektrotechnickou v Ječné ulici, obor automatizační technika.Prošel několika firmami, kde se věnoval vývoji informačních systémů. V současnosti pracuje jako kontraktor na vývoji informačních systémů pro zahraniční zákazníky.Angažuje se v aktivitách souvisejících s hudbou a nezávislým filmem. Jeho zájmy jsou hudba, film, věda, technika, politika.",
+      "url"      : "/clenove/miler-filip/"
+    },
+  
+    {
+      "uid"      : "milan.minarik",
+      "name"     : "Milan Minařík",
+      "fullname" : "",
+      "category" : "pms kandidat-obec",
+      "img"      : "/assets/img/people/milan-minarik.jpg",
+      "mail"     : "milan.minarik@pirati.cz",
+      "mob"      : "+420 773 264 564",
+      "description" : "místopředseda MS &lt;br&gt; ▪ Finanční výbor &lt;br&gt; ▪ Bezpečnostní komise",
+      "profiles" : "milan.minarik@pirati.cz",
+      "content"	 : "manažerčlen PirátůPřed přistěhováním na Jižní Město jsem mnoho let žil v zahraničí, postupně v několika zemích. Díky tomu mám s čím srovnávat a vím, jakým směrem by se měl rozvoj města ubírat. Viděl jsem i to, jakou cestou se rozhodně nevydávat. Rozhodl jsem se kandidovat, abych zajistil pro obyvatele Prahy 11 lepší podmínky k životu a zároveň ohlídal, aby naše městská část neopakovala chyby jiných světových měst.",
+      "url"      : "/clenove/minarik-milan/"
+    },
+  
+    {
+      "uid"      : "martin.muzikant",
+      "name"     : "Martin Muzikant",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/martin-muzikant.jpg",
+      "mail"     : "martin.muzikant@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ Komise investic &lt;br&gt;▪ Komise pro dotace a EU fondů &lt;br&gt;▪ Komise pro správu majetku a podporu podnikání &lt;br&gt;▪ Finanční výbor (místopředseda) &lt;br&gt;▪ člen dozorčí rady Jihoměstská majetková",
+      "profiles" : "martin.muzikant@pirati.cz",
+      "content"	 : "zastupitel MČ Prahy 11, gesce: finance, investice a majtekmanažerčlen PirátůŽiji na Jižním Městě již 40 let. Mám toto místo moc rád, ale myslím si, že se dá plno věcí zde zlepšit. Radnice by měla více naslouchat, co trápí místní obyvatele. Myslím si, že občané mají 100 % právo rozhodovat o svém okolí. Transparentnost radnice je hlavní cíl! Kontrola hospodářských činností, podpora drobných podnikatelů (služeb), a kvalitní všeobecný rozvoj by měl být základem Jižního Města.",
+      "url"      : "/clenove/muzikant-martin/"
+    },
+  
+    {
+      "uid"      : "martin.petrtyl",
+      "name"     : "Martin Petrtýl",
+      "fullname" : "",
+      "category" : "priznivci kandidat-obec",
+      "img"      : "/assets/img/people/martin-petrtyl.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Bezpečnostní komise &lt;br&gt;▪ Komise pro dotace a EU fondy",
+      "profiles" : "",
+      "content"	 : "fundraiser a politologpříznivec PirátůNa Jižním Městě jsem prožil celé své dětství, jinošství a mládí a teď zde jako už dospělý vychovávám s manželkou Veronikou své dva syny (9 a 10 let). Viděl jsem Jižňák růst a vidím, že i nadále roste. Poroste ale správným směrem? Bude stále dost atraktivní pro mladé rodiny i pro jejich rodiče a prarodiče? Chci, aby to tak bylo, ale vidím, že Jižňák stále neumí dobře hospodařit s vodou (naše paneláky se stavěly tak, že dešťovka jde rovnou do kanalizace), že je z Jižňáku polopoušť a trávníkáři dál sekají trávu a zbytečně asfaltujeme tam, kde by měly být alespoň polopropustné plochy, že zde v noci parkuje mnohem víc aut než před 20 lety a je tak z hledání volného fleku napínavá bojovka. Jižňák podle mne potřebuje dlouhodobou strategii k boji se suchem i nedostatkem prostoru pro lidi i pro naše plechové miláčky, se zlepšováním celkové infrastruktury včetně hluku z D1. Už jsem se s těmito problémy setkal při práci na Ministerstvu životního prostředí, v Evropské komisi či v Botanickém ústavu AV ČR, tak doufám a věřím, že budu vhodným zastupitelem nejen v oblasti životního prostředí. Nespoléhám ale jen na své znalosti. Když nevím, vím, kde požádat o radu.",
+      "url"      : "/clenove/petrtyl-martin/"
+    },
+  
+    {
+      "uid"      : "lada.pexova",
+      "name"     : "Lada Peksová",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/lada-pexova.jpg",
+      "mail"     : "lada.pexova@pirati.cz",
+      "mob"      : "",
+      "description" : "▪ Komise pro kulturu a spolky",
+      "profiles" : "lada.pexova@pirati.cz",
+      "content"	 : "doktorand na MFF UKčlenka PirátůDalo by se říci, že na Praze 11 se žije dobře. A jsou to občas pouhé drobnosti, které komplikují a znepříjemňují život, co člověka motivují začít se víc zajímat. Otázkou tak je, zda by některé z nich nešlo jednoduše vyřešit či zlepšit. Co je vlastně potřeba na zmenšení hluku z dálnice? Na propojení cyklostezek? Či méně vyprahlé parky? Mne tyto drobnosti vedly k tomu, začít se víc zajímat o celé Jižní město. Aby se tu žilo opravdu dobře.",
+      "url"      : "/clenove/pexova-lada/"
+    },
+  
+    {
+      "uid"      : "michaela.polakova",
+      "name"     : "Michaela Poláková",
+      "fullname" : "",
+      "category" : "priznivci kandidat-obec",
+      "img"      : "/assets/img/people/michaela-polakova.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "",
+      "profiles" : "",
+      "content"	 : "stavební inženýrka, člen DR PVSpříznivec PirátůVystudovala jsem ČVUT v Praze, a prakticky od dob studií jsem byla zaměstnána  v renomovaných stavebně-technických firmách převážně zahraničních investorů, kde jsem se postupně vypracovala až do vrcholového managementu, konkrétně na pozici finanční ředitelky. Věřím, že získané know-how a zkušenosti  mohou dobře využít pro zefektivnění  řízení v komunální správě. Na Jižním Městě žiji od roku 1984, s občasnými pracovními pobyty v zahraničí. Mezi mé zájmy patří architektura, cestování a hudba, hraji na příčnou flétnu.",
+      "url"      : "/clenove/polakova-michaela/"
+    },
+  
+    {
+      "uid"      : "jan.skarka",
+      "name"     : "Jan Škarka",
+      "fullname" : "",
+      "category" : "delegati",
+      "img"      : "/assets/img/people/jan-skarka.jpg",
+      "mail"     : "",
+      "mob"      : "",
+      "description" : "▪ Bytová komise",
+      "profiles" : "",
+      "content"	 : "Mám VŠ vzdělání ekonomického směru. V Praze 11 žiji se svou rodinou od r.1992. Mám to zde rád, protože je zde příjemné příjemné prostředí k bydlení, plné zeleně, v těsné blízkosti  Trojmezí.Vedle mých zálib , kterým je sport a cestování (cyklistika, lyžování apod.) společně se svými přáteli ze sousedních domů aktivně vystupujeme již téměř 20 let proti některým neustálým, často nesmyslným snahám a tlakům developerů a jiných privátních subjektů, které směřují k zastavění blízkého okolí našich domovů.Jsem pro otevřenou a transparentní politiku MČ Praha 11 ve vztahu k občanům.",
+      "url"      : "/clenove/skarka-jan/"
+    },
+  
+    {
+      "uid"      : "jan.suchanek",
+      "name"     : "Jan Suchánek",
+      "fullname" : "",
+      "category" : "clenove kandidat-obec",
+      "img"      : "/assets/img/people/jan-suchanek.jpg",
+      "mail"     : "honza@suchanek.cz",
+      "mob"      : "",
+      "description" : "▪ Komise informatiky",
+      "profiles" : "honza@suchanek.cz",
+      "content"	 : "člen PirátůNa Jižním Městě bydlím přes 30 let. Jsem členem spolku, který poskytuje levné připojení k internetu. Baví mě cyklistika a výlety s hafany, počítače, rychlý internet, cestování. Na Jižním Městě mě zajímá především jeho vývoj a vylepšování zdejšího okolí pro stávající obyvatele. Nebaví mě radnice Prahy 11, která upřednostňuje zájmy úzkého kruhu osob před zájmy obyvatelstva a chtěl bych prosadit změnu k lepšímu.",
+      "url"      : "/clenove/suchanek-jan/"
+    },
+  
+    {
+      "uid"      : "zuzana.ujhelyiova",
+      "name"     : "Zuzana Ujhelyiová",
+      "fullname" : "",
+      "category" : "kandidat-obec pms",
+      "img"      : "/assets/img/people/zuzana-ujhelyiova.jpg",
+      "mail"     : "zuzana.ujhelyiova@pirati.cz",
+      "mob"      : "+420 778 421 041",
+      "description" : "místopředseda MS &lt;br&gt; ▪ radní pro školství",
+      "profiles" : "zuzana.ujhelyiova@pirati.cz",
+      "content"	 : "radní s gescí školstvíčlenka PirátůMou prioritou je rozvoj jihoměstského školství. Školy podpořím v jejich různorodém zaměření, a to i v rámci strategických cílů projektu MAP. Rovněž podpořím vzdělávací programy pro žáky druhého stupně ZŠ a zřízení žákovských samospráv. On-line registrací do ZŠ a MŠ snížím administrativní zátěž škol a budu hledat mimorozpočtové zdroje financování. Školství otevřu veřejnosti - jak centralizací informací na jedné webové stránce, tak i pravidelnými setkání s rodiči.",
+      "url"      : "/clenove/ujhelyiova-zuzana/"
+    }
+  
 ]
