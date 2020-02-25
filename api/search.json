@@ -167,11 +167,15 @@
   
     { "label": "Jan Nepomuk Piskač", "value": "/clenove/piskac-nepomuk-jan/"},
   
+    { "label": "Drahomír Soldán", "value": "/clenove/soldan-drahomir/"},
+  
     { "label": "Josef Špak", "value": "/clenove/spak-josef/"},
   
     { "label": "Pavel Šramhauser", "value": "/clenove/sramhauser-pavel/"},
   
     { "label": "Petr Steinbauer", "value": "/clenove/steinbauer-petr/"},
+  
+    { "label": "Ivo Vlasatý", "value": "/clenove/vlasaty-ivo/"},
   
     { "label": "Renata Žďárková", "value": "/clenove/zdarkova-renata/"},
   
@@ -195,29 +199,45 @@
   
     { "label": "404 Stránka nebyla nalezena :(", "value": "/404/"},
   
-    { "label": "Aktuality", "value": "/aktuality/"},
-  
     { "label": "", "value": "/"},
   
-    { "label": "Podpořte nás", "value": "/podporte-nas/"},
+    { "label": "Aktuality", "value": "/aktuality/"},
   
     { "label": "Články podle tagu", "value": "/tags/"},
   
+    { "label": "Podpořte nás", "value": "/podporte-nas/"},
+  
+    { "label": "Videa", "value": "/videa/"},
+  
     { "label": "Naši lidé", "value": "/lide/"},
   
-    { "label": "", "value": "/kontakt/"},
+    { "label": "Radnice", "value": "/radnice/"},
   
     { "label": "", "value": "/api/"},
   
-    { "label": "Radnice", "value": "/radnice/"},
+    { "label": "Komunální volby 2018", "value": "/volby/"},
+  
+    { "label": "", "value": "/kontakt/"},
+  
+    { "label": "Kodex zastupitele", "value": "/volby/kodex-zastupitele/"},
+  
+    { "label": "Mapa pirátů", "value": "/volby/mapa-pirati/"},
+  
+    { "label": "Mapa pirátských plánů pro Prahu 11", "value": "/volby/mapa-piratskych-planu/"},
+  
+    { "label": "Mapa záměrů", "value": "/volby/mapa-zameru/"},
   
     { "label": "", "value": "/api/people.json"},
   
     { "label": "", "value": "/api/posts.json"},
   
+    { "label": "Povolební strategie pro volby 2018", "value": "/volby/povolebni-strategie/"},
+  
     { "label": "", "value": "/api/search.json"},
   
     { "label": "", "value": "/api/tags.json"},
+  
+    { "label": "Videa pro volby 2018", "value": "/volby/videa/"},
   
     { "label": "", "value": "/sitemap.xml"},
   
